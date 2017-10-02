@@ -1,0 +1,2 @@
+class WorldShakingEvent < ApplicationRecord
+end
