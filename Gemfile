@@ -12,6 +12,7 @@ ruby '2.4.2'
 gem 'airbrake'
 gem 'audited'
 gem 'auto_strip_attributes'
+gem 'bourbon'
 gem 'coffee-rails'
 gem 'faker'
 gem 'haml'
@@ -39,7 +40,9 @@ group :development, :test do
 end
 
 group :development do
-  gem 'guard'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'guard', require: false
   gem 'guard-bundler', require: false
   gem 'guard-coffeescript'
   gem 'guard-haml'
