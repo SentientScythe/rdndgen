@@ -64,14 +64,11 @@ guard :rubocop do
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
 end
 
-# Sample guardfile block for Guard::Haml
-# You can use some options to change guard-haml configuration
-# output: 'public' # set output directory for compiled files
-# input: 'src' # set input directory with haml files
-# run_at_start: true # compile files when guard starts
-# notifications: true # send notifications to Growl/libnotify/Notify
-# haml_options: { ugly: true } # pass options to the Haml engine
-
-guard(:haml) { watch(/^.+(\.html\.haml)$/) }
-
 guard 'sass', input: 'sass', output: 'css'
+
+guard 'brakeman', run_on_start: true do
+  watch(%r{^app/.+\.(erb|haml|rhtml|rb)$})
+  watch(%r{^config/.+\.rb$})
+  watch(%r{^lib/.+\.rb$})
+  watch('Gemfile')
+end

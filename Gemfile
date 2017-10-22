@@ -15,9 +15,8 @@ gem 'auto_strip_attributes'
 gem 'bourbon'
 gem 'coffee-rails'
 gem 'faker'
-gem 'haml'
-gem 'haml-rails'
 gem 'kaminari'
+gem 'lograge'
 gem 'mini_racer'
 gem 'pg'
 gem 'rails', '~> 5.1'
@@ -31,8 +30,8 @@ gem 'uglifier'
 
 group :development, :test do
   gem 'bullet'
-  gem 'bundler-audit'
   gem 'capybara'
+  gem 'dotenv-rails', require: false
   gem 'minitest'
   gem 'rubocop', require: false
   gem 'selenium-webdriver'
@@ -40,18 +39,20 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller'
+  gem 'better_errors', require: false
+  gem 'binding_of_caller', require: false
+  gem 'brakeman', require: false
   gem 'guard', require: false
+  gem 'guard-brakeman', require: false
   gem 'guard-bundler', require: false
-  gem 'guard-coffeescript'
-  gem 'guard-haml'
+  gem 'guard-bundler-audit', require: false
+  gem 'guard-coffeescript', require: false
   gem 'guard-migrate', require: false
-  gem 'guard-minitest'
+  gem 'guard-minitest', require: false
   gem 'guard-rails', require: false
   gem 'guard-rubocop', require: false
   gem 'guard-sass', require: false
-  gem 'listen'
-  gem 'spring'
-  gem 'spring-watcher-listen'
+  gem 'listen', require: false
+  gem 'spring', require: false
+  gem 'spring-watcher-listen', require: false
 end
