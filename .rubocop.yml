@@ -11,10 +11,10 @@ AllCops:
 Naming/PredicateName:
   # Method define macros for dynamically generated method.
   MethodDefinitionMacros:
-    - define_method
-    - define_singleton_method
-    - def_node_matcher
-    - def_node_search
+    - 'define_method'
+    - 'define_singleton_method'
+    - 'def_node_matcher'
+    - 'def_node_search'
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -40,6 +40,9 @@ Metrics/ModuleLength:
   Exclude:
     - 'spec/**/*.rb'
 
+Metrics/LineLength:
+  Max: 128
+
 Performance/Caller:
   Exclude:
-    - spec/rubocop/cop/performance/caller_spec.rb
+    - 'spec/rubocop/cop/performance/caller_spec.rb'
