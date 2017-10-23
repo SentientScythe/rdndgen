@@ -10,7 +10,6 @@ end
 ruby '2.4.2'
 
 gem 'airbrake'
-gem 'audited'
 gem 'auto_strip_attributes'
 gem 'bourbon'
 gem 'bundler-audit', require: false
@@ -19,6 +18,7 @@ gem 'faker'
 gem 'kaminari'
 gem 'lograge'
 gem 'mini_racer'
+gem 'paper_trail'
 gem 'pg'
 gem 'rails', '~> 5.1'
 gem 'rubygems-update', require: false

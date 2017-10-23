@@ -45,8 +45,6 @@ GEM
     airbrake-ruby (2.5.0)
     arel (8.0.0)
     ast (2.3.0)
-    audited (4.5.0)
-      activerecord (>= 4.0, < 5.2)
     auto_strip_attributes (2.2.0)
       activerecord (>= 3.0)
     better_errors (2.4.0)
@@ -186,6 +184,9 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    paper_trail (8.0.0)
+      activerecord (>= 4.2, < 5.2)
+      request_store (~> 1.1)
     parallel (1.12.0)
     parser (2.4.0.0)
       ast (~> 2.2)
@@ -301,7 +302,6 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake
-  audited
   auto_strip_attributes
   better_errors
   binding_of_caller
@@ -327,6 +327,7 @@ DEPENDENCIES
   lograge
   mini_racer
   minitest
+  paper_trail
   pg
   rails (~> 5.1)
   rubocop
