@@ -3,7 +3,7 @@ AllCops:
     - 'vendor/**/*'
     - 'spec/fixtures/**/*'
     - 'tmp/**/*'
-    - 'db/schema.rb'
+    - 'db/**/*'
   TargetRubyVersion: 2.4
 
 Naming/PredicateName:
