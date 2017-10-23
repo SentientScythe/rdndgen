@@ -14,6 +14,7 @@ gem 'auto_strip_attributes'
 gem 'bourbon'
 gem 'bundler-audit', require: false
 gem 'coffee-rails'
+gem 'enumerize'
 gem 'faker'
 gem 'kaminari'
 gem 'lograge'
@@ -21,6 +22,7 @@ gem 'mini_racer'
 gem 'paper_trail'
 gem 'pg'
 gem 'rails', '~> 5.1'
+gem 'rubygems-bundler', require: false
 gem 'rubygems-update', require: false
 gem 'sass'
 gem 'sass-rails'
@@ -34,6 +36,7 @@ group :development, :test do
   gem 'capybara'
   gem 'dotenv-rails', require: false
   gem 'minitest'
+  gem 'mocha'
   gem 'rubocop', require: false
   gem 'selenium-webdriver'
   gem 'webmock'
@@ -53,6 +56,7 @@ group :development do
   gem 'guard-rubocop', require: false
   gem 'guard-sass', require: false
   gem 'listen', require: false
+  gem 'rails-erd'
   gem 'spring', require: false
   gem 'spring-watcher-listen', require: false
 end
