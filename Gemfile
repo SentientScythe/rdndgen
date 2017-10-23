@@ -13,6 +13,7 @@ gem 'airbrake'
 gem 'audited'
 gem 'auto_strip_attributes'
 gem 'bourbon'
+gem 'bundler-audit', require: false
 gem 'coffee-rails'
 gem 'faker'
 gem 'kaminari'
@@ -45,7 +46,6 @@ group :development do
   gem 'guard', require: false
   gem 'guard-brakeman', require: false
   gem 'guard-bundler', require: false
-  gem 'guard-bundler-audit', require: false
   gem 'guard-coffeescript', require: false
   gem 'guard-migrate', require: false
   gem 'guard-minitest', require: false

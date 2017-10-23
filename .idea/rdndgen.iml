@@ -70,7 +70,6 @@
     <orderEntry type="library" scope="PROVIDED" name="guard (v2.14.1, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-brakeman (v0.8.3, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-bundler (v2.1.0, rbenv: 2.4.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="guard-bundler-audit (v0.1.4, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-coffeescript (v2.0.1, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-compat (v1.2.1, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-migrate (v2.0.0, rbenv: 2.4.2) [gem]" level="application" />

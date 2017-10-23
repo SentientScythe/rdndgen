@@ -1,11 +1,9 @@
-require:
-  - rubocop/cop/internal_affairs
-
 AllCops:
   Exclude:
     - 'vendor/**/*'
     - 'spec/fixtures/**/*'
     - 'tmp/**/*'
+    - 'db/schema.rb'
   TargetRubyVersion: 2.4
 
 Naming/PredicateName:
