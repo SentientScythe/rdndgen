@@ -20,33 +20,32 @@ gem 'kaminari', git: 'https://github.com/kaminari/kaminari.git'
 gem 'lograge'
 gem 'mini_racer', git: 'https://github.com/discourse/mini_racer.git'
 gem 'paper_trail', git: 'https://github.com/airblade/paper_trail.git'
-gem 'pg'
+gem 'pg', git: 'https://github.com/ged/ruby-pg.git'
 gem 'rails', '~> 5.1'
-gem 'rubygems-update', require: false
 gem 'sass'
-gem 'sass-rails'
-gem 'simple_form'
-gem 'thin'
+gem 'sass-rails', git: 'https://github.com/rails/sass-rails.git'
+gem 'simple_form', git: 'https://github.com/plataformatec/simple_form.git'
+gem 'thin', git: 'https://github.com/macournoyer/thin.git'
 gem 'turbolinks'
-gem 'uglifier'
+gem 'uglifier', git: 'https://github.com/lautis/uglifier.git'
 
 group :development, :test do
-  gem 'bullet'
-  gem 'capybara'
-  gem 'dotenv-rails', require: false
+  gem 'bullet', git: 'https://github.com/flyerhzm/bullet.git'
+  gem 'capybara', git: 'https://github.com/teamcapybara/capybara.git'
+  gem 'dotenv-rails'
   gem 'minitest'
-  gem 'mocha'
-  gem 'rubocop', require: false
+  gem 'mocha', git: 'https://github.com/freerange/mocha.git'
+  gem 'rubocop', require: false, git: 'https://github.com/bbatsov/rubocop.git'
   gem 'selenium-webdriver'
-  gem 'webmock'
+  gem 'webmock', git: 'https://github.com/bblimke/webmock.git'
 end
 
 group :development do
   gem 'better_errors', require: false
   gem 'binding_of_caller', require: false
-  gem 'brakeman', require: false
+  gem 'brakeman', require: false, git: 'https://github.com/presidentbeef/brakeman.git'
   gem 'dot'
-  gem 'guard', require: false
+  gem 'guard', require: false, git: 'https://github.com/guard/guard.git'
   gem 'guard-brakeman', require: false
   gem 'guard-bundler', require: false
   gem 'guard-coffeescript', require: false
@@ -55,8 +54,8 @@ group :development do
   gem 'guard-rails', require: false
   gem 'guard-rubocop', require: false
   gem 'guard-sass', require: false
-  gem 'listen', require: false
-  gem 'rails-erd'
-  gem 'spring', require: false
-  gem 'spring-watcher-listen', require: false
+  gem 'listen', require: false, git: 'https://github.com/guard/listen.git'
+  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd.git'
+  gem 'spring', require: false, git: 'https://github.com/rails/spring.git'
+  gem 'spring-watcher-listen', require: false, git: 'https://github.com/jonleighton/spring-watcher-listen.git'
 end
