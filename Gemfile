@@ -9,20 +9,19 @@ end
 
 ruby '2.4.2'
 
-gem 'airbrake'
+gem 'airbrake', git: 'https://github.com/airbrake/airbrake.git'
 gem 'auto_strip_attributes'
-gem 'bourbon'
-gem 'bundler-audit', require: false
+gem 'bourbon', git: 'https://github.com/thoughtbot/bourbon.git'
+gem 'bundler-audit', require: false, git: 'https://github.com/rubysec/bundler-audit.git'
 gem 'coffee-rails'
-gem 'enumerize'
-gem 'faker'
-gem 'kaminari'
+gem 'enumerize', git: 'https://github.com/brainspec/enumerize.git'
+gem 'faker', git: 'https://github.com/stympy/faker.git'
+gem 'kaminari', git: 'https://github.com/kaminari/kaminari.git'
 gem 'lograge'
-gem 'mini_racer'
-gem 'paper_trail'
+gem 'mini_racer', git: 'https://github.com/discourse/mini_racer.git'
+gem 'paper_trail', git: 'https://github.com/airblade/paper_trail.git'
 gem 'pg'
 gem 'rails', '~> 5.1'
-gem 'rubygems-bundler', require: false
 gem 'rubygems-update', require: false
 gem 'sass'
 gem 'sass-rails'
@@ -46,6 +45,7 @@ group :development do
   gem 'better_errors', require: false
   gem 'binding_of_caller', require: false
   gem 'brakeman', require: false
+  gem 'dot'
   gem 'guard', require: false
   gem 'guard-brakeman', require: false
   gem 'guard-bundler', require: false
