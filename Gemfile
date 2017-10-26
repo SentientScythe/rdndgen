@@ -32,14 +32,14 @@ gem 'turbolinks'
 gem 'uglifier', git: 'https://github.com/lautis/uglifier.git'
 
 group :development, :test do
-  gem 'bullet', git: 'https://github.com/flyerhzm/bullet.git'
-  gem 'capybara', git: 'https://github.com/teamcapybara/capybara.git'
+  gem 'bullet'
+  gem 'capybara'
   gem 'dotenv-rails'
   gem 'minitest'
-  gem 'mocha', git: 'https://github.com/freerange/mocha.git'
+  gem 'mocha'
   gem 'rubocop', require: false
   gem 'selenium-webdriver'
-  gem 'webmock', git: 'https://github.com/bblimke/webmock.git'
+  gem 'webmock'
 end
 
 group :development do
@@ -57,8 +57,8 @@ group :development do
   gem 'guard-rubocop', require: false
   gem 'guard-sass', require: false
   gem 'listen', require: false
-  gem 'pry-rails', git: 'https://github.com/rweng/pry-rails.git'
-  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd.git'
+  gem 'pry-rails'
+  gem 'rails-erd'
   gem 'spring', require: false
   gem 'spring-watcher-listen', require: false
 end
