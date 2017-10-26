@@ -82,5 +82,3 @@ cmake-build-debug/
 
 ## File-based project format:
 *.iws
-
-.bundle/config
