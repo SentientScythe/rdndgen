@@ -12,7 +12,7 @@ ruby '2.4.2'
 gem 'airbrake', git: 'https://github.com/airbrake/airbrake.git'
 gem 'auto_strip_attributes'
 gem 'bourbon', git: 'https://github.com/thoughtbot/bourbon.git'
-gem 'bundler-audit', require: false, git: 'https://github.com/rubysec/bundler-audit.git'
+gem 'bundler-audit', require: false
 gem 'coffee-rails'
 gem 'enumerize', git: 'https://github.com/brainspec/enumerize.git'
 gem 'faker', git: 'https://github.com/stympy/faker.git'
@@ -37,7 +37,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'minitest'
   gem 'mocha', git: 'https://github.com/freerange/mocha.git'
-  gem 'rubocop', require: false, git: 'https://github.com/bbatsov/rubocop.git'
+  gem 'rubocop', require: false
   gem 'selenium-webdriver'
   gem 'webmock', git: 'https://github.com/bblimke/webmock.git'
 end
@@ -45,9 +45,9 @@ end
 group :development do
   gem 'better_errors', require: false
   gem 'binding_of_caller', require: false
-  gem 'brakeman', require: false, git: 'https://github.com/presidentbeef/brakeman.git'
+  gem 'brakeman', require: false
   gem 'dot'
-  gem 'guard', require: false, git: 'https://github.com/guard/guard.git'
+  gem 'guard', require: false
   gem 'guard-brakeman', require: false
   gem 'guard-bundler', require: false
   gem 'guard-coffeescript', require: false
@@ -56,9 +56,9 @@ group :development do
   gem 'guard-rails', require: false
   gem 'guard-rubocop', require: false
   gem 'guard-sass', require: false
-  gem 'listen', require: false, git: 'https://github.com/guard/listen.git'
+  gem 'listen', require: false
   gem 'pry-rails', git: 'https://github.com/rweng/pry-rails.git'
   gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd.git'
-  gem 'spring', require: false, git: 'https://github.com/rails/spring.git'
-  gem 'spring-watcher-listen', require: false, git: 'https://github.com/jonleighton/spring-watcher-listen.git'
+  gem 'spring', require: false
+  gem 'spring-watcher-listen', require: false
 end
