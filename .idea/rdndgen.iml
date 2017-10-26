@@ -43,7 +43,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bourbon (v5.0.0.beta.8@7ef23d, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="brakeman (v4.0.1, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, rbenv: 2.4.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bullet (v5.6.1@e134a2, rbenv: 2.4.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bullet (v5.6.1, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.0.pre.3, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler-audit (v0.6.0, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v2.15.4, rbenv: 2.4.2) [gem]" level="application" />

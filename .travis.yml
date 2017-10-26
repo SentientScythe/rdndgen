@@ -3,5 +3,6 @@ rvm:
   - 2.4.2
 deploy:
   provider: heroku
+  app: pacific-sierra-24387
   api_key:
     secure: 58871719-7f25-4f4d-aec8-b349d3d01083
