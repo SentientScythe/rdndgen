@@ -1497,7 +1497,6 @@
     <orderEntry type="library" scope="PROVIDED" name="kaminari-activerecord (v1.1.1@0ff8c3, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari-core (v1.1.1@0ff8c3, rbenv: 2.4.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="paper_trail (v8.0.0@626d0a, rbenv: 2.4.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.25, rbenv: 2.4.2) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

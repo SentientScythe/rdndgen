@@ -1,0 +1,1 @@
+web: bin/rails thin -p $PORT -e $RAILS_ENV
