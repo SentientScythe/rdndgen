@@ -202,10 +202,6 @@ GEM
     daemons (1.2.5)
     debug_inspector (0.0.3)
     dot (0.1.0)
-    dotenv (2.2.1)
-    dotenv-rails (2.2.1)
-      dotenv (= 2.2.1)
-      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     eventmachine (1.2.5)
     execjs (2.7.0)
@@ -397,7 +393,6 @@ DEPENDENCIES
   capybara
   coffee-rails
   dot
-  dotenv-rails
   enumerize!
   faker!
   guard
