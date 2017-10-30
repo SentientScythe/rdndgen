@@ -34,7 +34,6 @@ gem 'uglifier', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/la
 group :development, :test do
   gem 'bullet'
   gem 'capybara'
-  gem 'dotenv-rails'
   gem 'minitest'
   gem 'mocha'
   gem 'rubocop', require: false
